@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "fetch": false
+  },
+  "rules" : {
+    "react/jsx-closing-bracket-location" : [0, "props-aligned"],
+    "react/jsx-no-bind" : [0, { "ignoreRefs" : true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}
