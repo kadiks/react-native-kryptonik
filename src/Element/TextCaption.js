@@ -19,14 +19,10 @@ const styles = StyleSheet.create({
   },
 });
 
-class TextCaption extends Text {
-  render() {
-    return (
-      <Text style={[styles.text, this.props.style]}>
-        {this.props.children}
-      </Text>
-    );
-  }
-}
+const TextCaption = (props) => (
+  <Text style={[styles.text, props.style]}>
+    {props.children}
+  </Text>
+);
 
 export default TextCaption;

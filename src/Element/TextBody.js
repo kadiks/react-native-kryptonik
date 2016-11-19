@@ -19,15 +19,10 @@ const styles = StyleSheet.create({
   },
 });
 
-class TextBody extends Text {
-  render() {
-    return (
-      <Text style={[styles.text, this.props.style]}>
-        {this.props.children}
-      </Text>
-    );
-  }
-
-}
+const TextBody = (props) => (
+  <Text style={[styles.text, props.style]}>
+    {props.children}
+  </Text>
+);
 
 export default TextBody;

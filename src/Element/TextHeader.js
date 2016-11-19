@@ -21,16 +21,10 @@ const styles = StyleSheet.create({
   },
 });
 
-class TextHeader extends Text {
-
-  render() {
-    return (
-      <Text style={[styles.text, this.props.style]}>
-        {this.props.children}
-      </Text>
-    );
-  }
-
-}
+const TextHeader = (props) => (
+  <Text style={[styles.text, props.style]}>
+    {props.children}
+  </Text>
+);
 
 export default TextHeader;
