@@ -34,8 +34,9 @@ class GoToButton extends Component {
 
 GoToButton.propTypes = {
   children: React.PropTypes.node,
-  screen: React.PropTypes.string,
   navigator: React.PropTypes.object,
+  passProps: React.PropTypes.object,
+  screen: React.PropTypes.string,
   style: React.PropTypes.object,
   title: React.PropTypes.string,
 };
