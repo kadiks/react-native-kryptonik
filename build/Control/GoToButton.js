@@ -34,8 +34,9 @@ this.props.children));
 
 GoToButton.propTypes={
 children:_react2.default.PropTypes.node,
-screen:_react2.default.PropTypes.string,
 navigator:_react2.default.PropTypes.object,
+passProps:_react2.default.PropTypes.object,
+screen:_react2.default.PropTypes.string,
 style:_react2.default.PropTypes.object,
 title:_react2.default.PropTypes.string};exports.default=
 
